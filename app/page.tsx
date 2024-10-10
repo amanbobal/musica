@@ -1,11 +1,9 @@
-import FormComponent from "./components/FormComponent";
-import ImageSlider from "./components/ImageSlider";
-
-export default function Home() {
+function Home() {
   return (
-    <>
-      <FormComponent />
-      <ImageSlider />
-    </>
+    <div className="home">
+      <h1>This is a home page of our Musica app...</h1>
+    </div>
   );
 }
+
+export default Home;

@@ -1,0 +1,104 @@
+.container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/bg-login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* .container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(8px) opacity(1);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+} */
+
+.login-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #8a3070;
+  width: 450px;
+  padding: 40px;
+  background-color: #ffd9ff;
+  border-radius: 25px;
+  gap: 35px;
+}
+
+.input-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input-box input {
+  display: block;
+  padding: 0 15px;
+  width: 100%;
+  height: 62px;
+  outline: none;
+  font-size: 20px;
+  background-color: transparent;
+  border: 3px solid #8a3070;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+
+.input-box label {
+  background-color: #ffd9ff;
+  width: auto;
+  position: absolute;
+  padding: 0 5px;
+}
+
+.input-box #one {
+  top: -1px;
+  left: 15px;
+}
+
+.input-box #two {
+  top: 81px;
+  left: 15px;
+}
+
+.login-button {
+  width: 100%;
+}
+
+button {
+  display: block;
+  color: #ffffff;
+  background-color: #8a3070;
+  font-size: 25px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 3px solid #8a3070;
+}
+
+button:hover {
+  background-color: #ffd9ff;
+  color: #8a3070;
+  border: 3px solid #8a3070;
+}
